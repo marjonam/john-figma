@@ -1,0 +1,135 @@
+@import url("./global.css");
+/* heebo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/heebo-v26-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/heebo-v26-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/heebo-v26-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* heebo-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/heebo-v26-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.creative-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 7.1rem;
+}
+.creative-text h1 {
+  margin-left: 6rem;
+  font-family: "Heebo";
+  font-size: 4.4rem;
+  line-height: 1.3;
+  color: #21243d;
+  font-weight: 700;
+}
+.creative-text p {
+  margin-left: 6rem;
+  font-family: "Heebo";
+  margin-bottom: 3.8rem;
+  width: 49.7rem;
+}
+.creative-photo img {
+  margin-right: 6rem;
+  box-shadow: 0 1.5rem 0 #edf7fa;
+  width: 28rem;
+  border-radius: 50%;
+}
+
+.posts {
+  background-color: #edf7fa;
+  font-family: "Heebo";
+  padding-bottom: 3.2rem;
+  padding-top: 0.7rem;
+}
+.posts-link {
+  font-family: "Heebo";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.posts-link p {
+  font-family: "Heebo";
+  font-size: 2.2rem;
+  color: #21243d;
+}
+.posts-link a {
+  font-family: "Heebo";
+  color: #00a8cc;
+  font-size: 1.6rem;
+}
+.posts-both {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.posts-items {
+  font-family: "Heebo";
+  width: 51.8rem;
+  background-color: #fff;
+  padding: 2.4rem;
+  border-radius: 0.4rem;
+}
+.posts-items h4 {
+  font-family: "Heebo";
+  font-size: 2.6rem;
+  padding-bottom: 1.7rem;
+}
+.posts-items time {
+  font-family: "Heebo";
+  height: 2.1rem;
+  font-size: 1.8rem;
+  padding-right: 2.6rem;
+  border-right: 2px solid #000000aa;
+  margin-right: 2.6rem;
+}
+.posts-items span {
+  font-family: "Heebo";
+  font-size: 1.8rem;
+  margin-bottom: 1.1rem;
+}
+.posts-items p {
+  font-family: "Heebo";
+  width: 368px;
+}
+
+.btn {
+  font-family: "Heebo";
+  font-weight: 500;
+  background-color: #ff6464;
+  color: #fff;
+  padding: 0.9rem 1.7rem;
+  border-radius: 0.2rem;
+  font-size: 2rem;
+  margin-left: 6rem;
+}
+#active {
+  color: #ff6464;
+}

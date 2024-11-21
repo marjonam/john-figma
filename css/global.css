@@ -1,0 +1,97 @@
+@import url("./normalize.css");
+@import url("./footer.css");
+@import url("./header.css");
+@import url("./fonts.css");
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h4,
+h5 {
+  margin: 0;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  display: flex;
+  scroll-behavior: smooth;
+  color: #21243d;
+  font-weight: 400;
+  flex-direction: column;
+  font-family: "Heebo";
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin-left: auto;
+  padding-right: 14.8rem;
+  margin-right: auto;
+  padding-left: 14.8rem;
+}
+main {
+  flex-grow: 1;
+}
+
+.featured-container {
+  padding-top: 3rem;
+  padding-bottom: 8.3rem;
+}
+.featured__title {
+  font-family: "Heebo";
+  font-size: 3.2rem;
+}
+.featured__work {
+  display: flex;
+  padding-top: 2.2rem;
+  gap: 1.8em;
+}
+.work__img img {
+  width: 29.6rem;
+  margin-bottom: 1rem;
+}
+.featured-works__info h5 {
+  font-family: "Heebo";
+  font-size: 3rem;
+  color: #21243d;
+  padding-bottom: 1rem;
+}
+.featured-info {
+  font-family: "Heebo";
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
+}
+.featured-info span {
+  font-family: "Heebo";
+  padding: 0.3rem 1.2rem;
+  border-radius: 1.6rem;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+  background-color: #21243d;
+}
+.featured-info p {
+  font-family: "Heebo";
+  color: #8695a4;
+  font-size: 2rem;
+}
+.featured-text {
+  font-family: "Heebo";
+  width: 59.4rem;
+  font-size: 1.6rem;
+}
+.featured-works-divider {
+  opacity: 0.4;
+  margin-bottom: 2rem;
+}

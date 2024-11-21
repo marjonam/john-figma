@@ -1,0 +1,60 @@
+@import url("../../css/global.css");
+
+.main-title {
+  font-size: 6.4rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+  font-family: "Heebo";
+}
+
+.featured-container {
+  padding-top: 3rem;
+  padding-bottom: 8.3rem;
+}
+.featured__title {
+  font-size: 3.2rem;
+  font-family: "Heebo";
+}
+.featured__work {
+  display: flex;
+  padding-top: 2.2rem;
+  gap: 1.8em;
+}
+.work__img img {
+  width: 29.6rem;
+  margin-bottom: 1rem;
+}
+.featured-works__info h5 {
+  font-size: 3rem;
+  color: #21243d;
+  padding-bottom: 1rem;
+  font-family: "Heebo";
+}
+.featured-info {
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
+}
+.featured-info span {
+  font-family: "Heebo";
+  padding: 0.3rem 1.2rem;
+  color: #fff;
+  border-radius: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: #21243d;
+}
+.featured-info p {
+  font-family: "Heebo";
+  color: #8695a4;
+  font-size: 2rem;
+}
+.featured-text {
+  font-family: "Heebo";
+  width: 59.4rem;
+  font-size: 1.6rem;
+}
+.featured-works-divider {
+  opacity: 0.4;
+  margin-bottom: 2rem;
+}
